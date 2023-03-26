@@ -8,7 +8,7 @@ import surfreport from "../../images/surf-report.jpeg";
 function Portfolio() {
   return (
     <section>
-      <h2 class="work">Work</h2>
+      <h2 class="work">Work:</h2>
       <article class="grid">
         <div
           class="k"
