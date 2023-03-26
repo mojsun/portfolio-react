@@ -1,9 +1,9 @@
 import React from "react";
-import ledwall from "../../images/ledwall.jpeg";
+import techblog from "../../images/Tech-blog.jpeg";
 import weatherdashboard from "../../images/weatherdashboard.jpeg";
-import pastelpuzzles from "../../images/pastelpuzzles.jpeg";
+import twonotes from "../../images/two-notes.jpeg";
 import questions from "../../images/questions.jpeg";
-import surfreport from "../../images/surf-report.jpeg";
+import travelerschoice from "../../images/travelerschoice.jpeg";
 
 function Portfolio() {
   return (
@@ -13,19 +13,29 @@ function Portfolio() {
         <div
           class="k"
           style={{
-            backgroundImage: `url(${surfreport})`,
+            backgroundImage: `url(${travelerschoice})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div class="part-a">
-            <h3>Surf Report</h3>
-            <p> Mern stack</p>
+            <h3>Traveler's Choice</h3>
+            <a href="https://shaynefw.github.io/TravelersChoice/">
+              {" "}
+              Traveler's Choice
+            </a>
+            <p> Traveler's Choice</p>
           </div>
         </div>
 
         <div
           class="l"
           style={{
-            backgroundImage: `url(${ledwall})`,
+            backgroundImage: `url(${techblog})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div class="part">
@@ -57,7 +67,9 @@ function Portfolio() {
         <div
           class="n"
           style={{
-            backgroundImage: `url(${pastelpuzzles})`,
+            backgroundImage: `url(${twonotes})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div class="part">
