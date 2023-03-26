@@ -147,6 +147,8 @@ div .o:hover {
   background-color: aquamarine;
   width: 20%;
   margin-right: 1px;
+  padding-left: 10px;
+  padding-top: 2px;
 }
 .part-a {
   width: 10%;

@@ -1,8 +1,8 @@
 import React from "react";
 import ledwall from "../../images/ledwall.jpeg";
-import calculator from "../../images/calculator.jpeg";
+import weatherdashboard from "../../images/weatherdashboard.jpeg";
 import pastelpuzzles from "../../images/pastelpuzzles.jpeg";
-import runbuddy from "../../images/run-buddy.jpeg";
+import questions from "../../images/questions.jpeg";
 import surfreport from "../../images/surf-report.jpeg";
 
 function Portfolio() {
@@ -29,20 +29,28 @@ function Portfolio() {
           }}
         >
           <div class="part">
-            <h3>LED Wall</h3>
-            <p> Node/Iot</p>
+            <h3>TechBlog</h3>
+            <a href="https://mojsun.github.io/Tech-Blog/">TechBlog</a>
+            <p> Node</p>
           </div>
         </div>
 
         <div
           class="m"
           style={{
-            backgroundImage: `url(${calculator})`,
+            backgroundImage: `url(${weatherdashboard})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div class="part">
-            <h3>Calculator</h3>
-            <p> React/Java script/ CSS</p>
+            <h3>weather Dashboard</h3>
+            <a href="https://mojsun.github.io/weather-dashbord/">
+              {" "}
+              weather dashboard
+            </a>
+            <p> API /Java script/ CSS</p>
           </div>
         </div>
 
@@ -53,19 +61,26 @@ function Portfolio() {
           }}
         >
           <div class="part">
-            <h3>Pastel Puzzels</h3>
-            <p>Mern stack</p>
+            <h3>two notes</h3>
+            <a href="https://safe-plateau-71069.herokuapp.com/notes">
+              two notes
+            </a>
+            <p>java script</p>
           </div>
         </div>
 
         <div
           class="o"
           style={{
-            backgroundImage: `url(${runbuddy})`,
+            backgroundImage: `url(${questions})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div class="part">
-            <h3>Run Buddy</h3>
+            <h3>questions</h3>
+            <a href="https://mojsun.github.io/questions/">questions</a>
             <p>Html/CSS</p>
           </div>
         </div>
