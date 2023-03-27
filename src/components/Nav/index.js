@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../images/pic1.webp";
-
+import profilepic from "../../images/profile.jpeg";
 function Nav(props) {
   return (
     <header>
@@ -55,9 +55,16 @@ function Nav(props) {
       </div>
       <div class="image-button">
         <img src={background} alt="stright line in picture 1" class="img"></img>
-        <button type="button" class="button">
-          <span class="button--text"> cool, subtitle here!</span>
-        </button>
+        <button
+          type="button"
+          class="button"
+          style={{
+            backgroundImage: `url(${profilepic})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></button>
       </div>
     </header>
   );
