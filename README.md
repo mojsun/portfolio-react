@@ -1,7 +1,5 @@
 ## Portfolio with React
 
-React application using Express server.
-
 ## Description
 
 A portfolio of work can showcase the skills and talents to employers looking to fill a part-time or full-time positions and this is my portfolio for now.
