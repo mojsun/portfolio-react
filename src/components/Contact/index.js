@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <form>
+    <form className="form">
       <h1>Contact Me</h1>
       <div class="form-group">
         <label for="emailInput">Email address</label>

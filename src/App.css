@@ -158,6 +158,18 @@ div .o:hover {
 .work {
   margin-right: 2.5rem;
 }
+/****contactme styel****/
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 25%;
+}
+
 /****footer styel****/
 footer {
   display: flex;
